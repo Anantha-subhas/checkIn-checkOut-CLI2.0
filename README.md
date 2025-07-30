@@ -1,10 +1,10 @@
-# 🕒 Employee Attendance System – Kotlin CLI
+# Employee Attendance System – Kotlin CLI
 
 A simple Kotlin-based command-line app to manage employee check-ins, check-outs, and track total working hours.
 
 ---
 
-## 📋 Menu Options
+## Menu Options
 
 1. Add Employee
 2. View All Empoyees
@@ -16,7 +16,7 @@ A simple Kotlin-based command-line app to manage employee check-ins, check-outs,
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 - `EmployeeData` – Data class for employee information  
 - `CheckInOutRecord` – Stores check-in and check-out timestamps  
@@ -27,7 +27,17 @@ A simple Kotlin-based command-line app to manage employee check-ins, check-outs,
 
 ---
 
-## 📝 Sample Output
+ ## Updated Rules:
+🔒 User must type today’s date to check in/out.
+
+No past or future dates allowed.
+
+You want to require typing today's date (not just allow it).
+
+🔒 Only one check-in and one check-out allowed per employee per day.
+
+---
+## Sample Output
 
 <pre>
 1. Add Employee
